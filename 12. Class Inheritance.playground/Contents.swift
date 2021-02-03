@@ -80,14 +80,17 @@ athelete2.train()
 
 athelete1.trainedTime
 athelete2.trainedTime
-
+/*
 athelete1 = athelete2 as StudentAthelete // Upper Cast
 athelete1.train() // override 한 함수가 실행됨
 athelete1.trainedTime
 // athelete1.footballTeam -> FootballPlayer 속성에 접근은 안됨;;
+*/
 
 if let son = athelete1 as? FootballPlayer {
     son.train()
     son.trainedTime
     son.footballTeam
+} else {
+    print("fuck")
 }

@@ -42,9 +42,9 @@ person.lastName
 
 person.firstName = "Jason"
 person.lastName = "Lee"
-person.fullName = "Jay Park"
 
 person.firstName
 person.lastName
+person.fullName
 
 Person.isAlien
